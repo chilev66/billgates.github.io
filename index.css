@@ -1,0 +1,99 @@
+body {
+  background-image: url("images/Background-Gray6.jpg");
+  background-size: cover;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+}
+p {
+  color: black;
+  text-align: center;
+  font-style: normal;
+  font-size: 25px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+iframe {
+    display: block;
+    width: 700px;
+    height: 400px;
+    margin: 0 auto;
+    border: 0;
+}
+
+a:link, a:visited {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+background-color: red;
+}
+* {
+box-sizing: border-box;
+}
+
+body {
+margin: 0;
+}
+
+.header {
+background-color: #f1f1f1;
+padding: 20px;
+text-align: center;
+}
+
+.topnav {
+overflow: hidden;
+background-color: #333;
+}
+
+.topnav a {
+float: left;
+display: block;
+color: #f2f2f2;
+text-align: center;
+padding: 20px 16px;
+text-decoration: none;
+}
+
+.topnav a:hover {
+background-color: #ddd;
+color: black;
+}
+
+.column {
+float: left;
+width: 33.33%;
+padding: 25px;
+
+}
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+div.SocialMedia {
+  padding-left: 1250px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 2px solid black;
+}
